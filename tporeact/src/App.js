@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button/Button';
+import Video from './components/Video/Video';
+import Audio from './components/Audio/Audio';
 
 function App() {
   return (
@@ -17,6 +20,10 @@ function App() {
         >
           Learn React
         </a>
+        <Button/>
+        <Video/>
+        <Audio/>
+
       </header>
     </div>
   );
