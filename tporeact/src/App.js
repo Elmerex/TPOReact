@@ -3,10 +3,13 @@ import './App.css';
 import Button from './components/Button/Button';
 import Video from './components/Video/Video';
 import Audio from './components/Audio/Audio';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar/>
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
