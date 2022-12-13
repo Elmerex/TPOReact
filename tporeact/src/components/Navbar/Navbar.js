@@ -8,7 +8,7 @@ export default class Navbar extends Component{
     render(){
         return(
             <div>
-                <image src={ logo } width={ 30 }></image>
+                <img src={ logo } width={ 30 } alt="img" ></img>
 
 
             </div>            

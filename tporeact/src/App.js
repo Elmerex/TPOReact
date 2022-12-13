@@ -4,12 +4,18 @@ import Button from './components/Button/Button';
 import Video from './components/Video/Video';
 import Audio from './components/Audio/Audio';
 import Navbar from './components/Navbar/Navbar';
+import Mensaje, { Banner } from './components/Banner/Banner';
+import {Banner as Saludo} from './components/Banner/Banner'
+
+//import Banner from './components/Banner/Banner'
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      
+      <Banner/>
+
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -31,5 +37,7 @@ function App() {
     </div>
   );
 }
+
+//Mensaje ();
 
 export default App;
